@@ -29,6 +29,8 @@ const contactLoad = () => {
 	paragraph.innerText =
 		'Role: CEO\nE-mail: notfake@yesmail.com\nTel: 12 34 567 8910';
 	sideContainer.appendChild(paragraph);
+
+	console.log('test');
 };
 
 export default contactLoad;
