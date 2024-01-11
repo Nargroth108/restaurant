@@ -43,7 +43,7 @@ const initialLoad = () => {
 	navBtn2.setAttribute('id', 'menu-button');
 	navBtn3.setAttribute('id', 'contact-button');
 	navBtn1.innerText = 'Home';
-	navBtn2.innerText = 'Menu';
+	navBtn2.innerText = 'Items';
 	navBtn3.innerText = 'Contact';
 	mainHeader.appendChild(navBtn1);
 	mainHeader.appendChild(navBtn2);
