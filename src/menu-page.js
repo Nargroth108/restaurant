@@ -15,7 +15,7 @@ const menuLoad = () => {
 
 	const itemContainer1 = document.createElement('div');
 	itemContainer1.classList.add('item-container');
-	mainContainer.appendChild(itemContainer1);
+	bodyContainer.appendChild(itemContainer1);
 
 	const foodImg1 = new Image();
 	foodImg1.src = Image2;
@@ -38,7 +38,7 @@ const menuLoad = () => {
 
 	const itemContainer2 = document.createElement('div');
 	itemContainer2.classList.add('item-container');
-	mainContainer.appendChild(itemContainer2);
+	bodyContainer.appendChild(itemContainer2);
 
 	const foodImg2 = new Image();
 	foodImg2.src = Image3;
@@ -61,7 +61,7 @@ const menuLoad = () => {
 
 	const itemContainer3 = document.createElement('div');
 	itemContainer3.classList.add('item-container');
-	mainContainer.appendChild(itemContainer3);
+	bodyContainer.appendChild(itemContainer3);
 
 	const foodImg3 = new Image();
 	foodImg3.src = Image4;
